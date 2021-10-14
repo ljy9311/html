@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <!-- done,component,element -->
+<head>
+    <title>Grid-Layout</title>
+    <style>
+        .container{
+            background-color: #2196f3;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr auto;
+            grid-gap: 20px;
+            /* grid-row-gap: */
+            /* grid-column-gap:  */
+            /* grid-gap = 요소와 요소사이의 갭 */
+            /* fr은 크기의 비율을 정해줄 수 있다 1:2:3*/
+        }
+        .item{
+            background-color: skyblue;
+            padding : 20px;
+            font-size:30px;
+            text-align: center;
+            border : 1px solid black
+            /* text-alian은 inline요소에만 적용가능 */
+            /* solid = 실선을 나타내고 다른형식도 많이 있다 */
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id = "item">id = 중복하여 쓸수 없음</div> -->
+    <div class = "container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+
+    </div>
+</body>
+</html>
+
+

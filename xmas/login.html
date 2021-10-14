@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Gaegu', cursive;
+            font-family: 'Noto Serif KR', serif;
+        }
+
+        .myTitle {
+            /* 가로길이 세로길이 */
+            width: 300px;
+            height: 200px;
+
+            /* 글자색 글자가운데 */
+            color: white;
+            text-align: center;
+
+            /* 배경 */
+            background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
+            background-size: cover;
+            background-position: center;
+
+            /* 모서리둥글게 */
+            border-radius: 10px;
+
+            /* 안쪽여백 */
+            padding-top: 20px;
+        }
+
+        .myBtn {
+            width: 300px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            background-color: brown;
+            border-radius: 10px;
+        }
+
+        .wrap {
+            width: 300px;
+            /* 양옆 마진 동일하게 */
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="myTitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 비밀번호를 입력해주세요</h5>
+        </div>
+        <p>ID: <input type="text" /></p>
+        <p>PW: <input type="text" /></p>
+        <button class="myBtn">로그인하기</button>
+    </div>
+</body>
+
+</html>
